@@ -4,13 +4,60 @@ Author : Shariar arefin
 */
 
 /* Global Section*/
-body{
+*{
     margin:0;
     padding:0;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    color: #005FAC;
+font-size: 20px;
+font-weight: 600;
+background: white;
+padding: 20px 25px;
+text-align: right;
+border:0;
+border-radius: 5px;
+
 }
 /* Global Section*/
 
 /* Header Section Start*/
+.hero{
+    background: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    }
+    .hero-container{
+        width: 1140px;
+        display: flex;
+
+    }
+    .hero-col{
+        width:50%;
+        display: block;
+    }
+    .hero-title{
+        color: #FFF;
+        width: 525px;
+        padding:216px 0 0 0; 
+text-align: right;
+font-size: 65px;
+font-weight: 700;
+    }
+.hero-content{
+    color: #FFF;
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.hero-col button{
+    margin-top:32px;
+}
+
 /* Header Section  Ends*/
 
 /* Main Section Starts*/
